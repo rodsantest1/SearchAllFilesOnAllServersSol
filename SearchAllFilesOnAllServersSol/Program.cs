@@ -118,14 +118,17 @@ class Program
                         action(file);
                         return (int)++localCount;
                     },
-                                     (c) => {
-                                         Interlocked.Add(ref fileCount, c);
-                                     });
+
+                    (c) =>
+                    {
+                        Interlocked.Add(ref fileCount, c);
+                    });
                 }
             }
             catch (AggregateException ae)
             {
-                ae.Handle((ex) => {
+                ae.Handle((ex) =>
+                {
                     if (ex is UnauthorizedAccessException)
                     {
                         // Here we just output a message and go on.
