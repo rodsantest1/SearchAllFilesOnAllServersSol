@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchAllFilesOnAllServersSol", "SearchAllFilesOnAllServersSol\SearchAllFilesOnAllServersSol.csproj", "{4B1A9BCD-EFD5-450E-A058-0BF82316B89B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{D4789744-C581-4BFF-82FB-8713C2B9ED03}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6EEA9EB9-BEEB-4CF3-8F64-795CA1FADDA6}"
 	ProjectSection(SolutionItems) = preProject
-		SearchAllFilesOnAllServersSol\Readme.md = SearchAllFilesOnAllServersSol\Readme.md
+		Readme.md = Readme.md
 	EndProjectSection
 EndProject
 Global
